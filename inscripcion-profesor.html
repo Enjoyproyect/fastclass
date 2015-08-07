@@ -1,0 +1,154 @@
+<html>
+	<head>
+    	<meta charset="utf-8" />
+		<meta name="format-detection" content="telephone=no" />
+		<meta name="viewport" content="user-scalable=no, initial-scale=1, maximun-scale=1, minimun-scale=1, whidth=device-width, height=device-height, target-densitydpi=device-dpi" />
+		<link rel="stylesheet" type="text/css" href="css/jquery-mobile-1.4.5.css" />
+        <link rel="stylesheet" type="text/css" href="css/classes.min.css" />         
+        <link rel="stylesheet" type="text/css" href="css/main.css" />    
+        <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.css" />
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery-mobile-1.4.5.js"></script>
+        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
+        <script type="text/javascript" src="js/jquery.datetimepicker.js"></script>
+		<script type="text/javascript" src="classes-bachillerato-validador.js"></script>
+		<title>CLASSES</title>
+	</head>
+	<body>
+		<!--PAGINA PRINCIPAL-->
+		<div data-role="page" data-theme="d" id="page1">
+			<div data-role="header" data-theme="d" id="">
+				<h1>COMUNIDAD DE PROFESORES</h1>
+			</div>
+			<div data-role="content" data-theme="d" id="">
+				<form id="profesor_datos"  method="post" data-ajax="false">
+					<label for="name">Nombre:</label>
+					<input type="text" name="name" id="name">
+					<label for="direccion">Direccion:</label>
+					<input type="text" name="direccion" id="direccion">
+					<label for="telefono">Teléfono:</label>
+					<input type="text" name="telefono" id="telefono">
+					<label for="institucion">Institución:</label>
+					<input type="text" name="institucion" id="institucion">
+                    <label for="institucion">E-mail:</label>
+					<input type="email" name="email" id="email">
+                    
+                    <input type="submit" value="Siguiente" id="submit">
+				</form>
+			</div>
+			<div data-role="footer" data-theme="d" id="">
+				<h5>(c) 2015. Classes</h5>
+			</div>
+		</div>
+		<!--PAGINA PRINCIPAL-->
+		
+		<!--PAGINA MATERIAS BACHILLERATO-->
+        
+		<div data-role="page" data-theme="d" id="bachillerato">
+			<div data-role="header" data-theme="d" id="">
+				<h1>MATERIAS DE BACHILLERATO</h1>
+			</div>
+            
+			<div data-role="content" data-theme="d" id="">
+				<form id="profesor_materias_bachillerato" method="post" data-ajax="false">
+				<fieldset data-role="controlgroup">
+					<legend>Selecciona la(s) materia(s) que quieres dictar:</legend>
+                    	<input type="hidden" name="bachillerato" id="bachillerato" value="bachillerato"/>
+                        <input type="checkbox" name="trigonometria" id="trigonometria" value="trigonometria"/>
+						<label for="trigonometria">Trigonometría</label>
+                        <input type="checkbox" name="quimica" id="quimica" value="quimica"/>
+						<label for="quimica">Quimica</label>
+                        <input type="checkbox" name="fisica" id="fisica" value="fisica"/>
+						<label for="fisica">Física</label>
+						<input type="checkbox" name="matematicas" id="matematicas" value="matematicas"/>
+						<label for="matematicas">Matematicas</label>
+						<input type="checkbox" name="geometria" id="geometria" value="geometria"/>
+						<label for="geometria">Geometría</label>
+						<input type="checkbox" name="calculo" id="calculo" value="calculo"/>
+						<label for="calculo">Cálculo</label>
+						<input type="checkbox" name="informatica" id="informatica" value="informatica"/>
+                        <label for="informatica">Informática</label>
+				</fieldset>
+                    <input type="submit" value="Siguiente - Materia de Pregrado" id="submit">
+                </form>
+			</div>
+			<div data-role="footer" data-theme="d" id="">
+				<h5>(c) 2015. Classes</h5>
+			</div>
+		</div>
+		<!--PAGINA MATERIAS BACHILLERATO-->
+
+
+		<!--PAGINA MATERIAS UNIVERSIDAD-->
+
+		<div data-role="page" data-theme="d" id="pregrado">
+			<div data-role="header" data-theme="d" id="">
+				<h1>COMUNIDAD DE PROFESORES</h1>
+			</div>
+			<div data-role="content" data-theme="d" id="">
+				<form id="profesor_materias_pregrado" method="post" data-ajax="false">	
+                    <fieldset data-role="controlgroup">
+                        <legend>Selecciona la(s) materia(s) que quieres dictar:</legend>
+                            <input type="hidden" name="bachillerato" id="bachillerato" value="pregrado"/>
+                            <input type="checkbox" name="quimica" id="quimica" value="quimica"/>
+                            <label for="quimica">Quimica</label>
+                            <input type="checkbox" name="fisica" id="fisica" value="fisica"/>
+                            <label for="fisica">Física</label>
+                            <input type="checkbox" name="calculo" id="calculo" value="calculo"/>
+                            <label for="calculo">Cálculo</label>
+                    </fieldset>
+                    <input type="submit" value="Siguente - Materias de musica" />
+                </form>
+			</div>
+			<div data-role="footer" data-theme="d" id="">
+				<h5>(c) 2015. Classes</h5>
+			</div>
+		</div>
+		<!--PAGINA MATERIAS UNIVERSIDAD-->
+
+		<!--PAGINA MATERIAS MÚSICA-->
+
+		<div data-role="page" data-theme="d" id="musica">
+			<div data-role="header" data-theme="d" id="">
+				<h1>COMUNIDAD DE PROFESORES</h1>
+			</div>
+			<div data-role="content" data-theme="d" id="">
+				<form id="profesor_materias_musica" method="post" data-ajax="false">
+                    <fieldset data-role="controlgroup">
+                        <legend>Selecciona la(s) materia(s) que quieres dictar:</legend>
+                            <input type="hidden" name="bachillerato" id="bachillerato" value="musica"/>
+                            <input type="checkbox" name="canto" id="canto" value="canto"/>
+                            <label for="canto">Canto</label>
+                            <input type="checkbox" name="guitarra" id="guitarra" value="guitarra"/>
+                            <label for="guitarra">Guitarra</label>
+                            <input type="checkbox" name="piano" id="piano" value="piano"/>
+                            <label for="piano">Piano / Organeta</label>
+                            <input type="checkbox" name="violin" id="violin" value="violin"/>
+                            <label for="violin">Violin</label>
+                    </fieldset>
+                    <input type="submit" value="Terminar" />
+                </form>
+			</div>
+			<div data-role="footer" data-theme="d" id="">
+				<h5>(c) 2015. Classes</h5>
+			</div>
+		</div>
+		<!--PAGINA MATERIAS MÚSICA-->
+        
+        <div data-role="page" data-theme="d"  id="exito">
+                <div data-role="header" data-theme="d">
+                    <h2>INSCRIPCION PROFESORES</h2>
+                </div>
+                    
+                <div data-role="content" data-theme="d">
+                    <h1 align="center">Exito</h1>
+                    <h2 align="center">Su inscripción ha sido enviada con exito, en breve recibira respuesta.</h2>
+                </div>    
+                
+                <div data-role="footer" data-theme="d" id="" data-position="fixed">
+                    <h5>(c) 2015. Classes</h5>
+                </div>
+        </div>
+        
+	</body>
+</html>
