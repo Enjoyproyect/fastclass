@@ -451,7 +451,7 @@ function funcion_ajax3() {
 	
 	valor_total = valor_trigo + valor_quimi + valor_fisica + valor_matem + valor_geome + valor_calcu + valor_infor
 
-	$("#classes").text("Classe de: "+$("#bachillerato").val());
+	$("#classes").text("Clase de: "+$("#bachillerato").val());
 	$("#num_e").text("Numero de estudiantes: "+num_e);
 	$("#num_h_total").text("Numero de horas totales: "+num_h)
 	$("#valor_total").text("Valor total a pagar: "+valor_total);
