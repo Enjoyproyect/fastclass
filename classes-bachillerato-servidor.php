@@ -1,4 +1,8 @@
 <?php
-$x = 2;
-echo $valor = $_POST["valor"];
+while ($post = each($_POST))
+{
+echo $post[0] . " = " . $post[1] 
+." ";
+}
+
 ?>

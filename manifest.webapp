@@ -1,9 +1,9 @@
 {
   "name": "Fast Class",
-  "description": "fast class",
+  "description": "App web de Fast Class",
   "launch_path": "/",
   "icons": {
-    "128": "/icos/128.png"
+    "128": "/cos/128.png"
   },
   "developer": {
     "name": "Enjoy Proyect - Bucaramanga",
