@@ -82,8 +82,11 @@
     <icon src="icos/96.png"  gap:platform="android"    gap:qualifier="xhdpi" />
     <icon src="icos/57.png"            gap:platform="ios"        width="57" height="57" />
     <icon src="icos/72.png"            gap:platform="ios"        width="72" height="72" />
+	<icon src="icos/76.png"            gap:platform="ios"        width="76" height="76" />
     <icon src="icos/114.png"         gap:platform="ios"        width="114" height="114" />
+	<icon src="icos/120.png"         gap:platform="ios"        width="120" height="120" />
     <icon src="icos/144.png"         gap:platform="ios"        width="144" height="144" />
+	<icon src="icos/152.png"         gap:platform="ios"        width="152" height="152" />
     <icon src="icos/64.png"          gap:platform="webos" />
     <icon src="icos/48.png"  gap:platform="winphone" />
     <icon src="icos/173.png" gap:platform="winphone"   gap:role="background" />
