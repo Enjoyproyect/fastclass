@@ -5,3 +5,8 @@
 .geometria{display:none}
 .calculo{display:none}
 .informatica{display:none}
+
+textarea#condiciones {
+  height: 200px;
+  overflow-y: scroll;
+}
