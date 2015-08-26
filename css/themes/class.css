@@ -1146,6 +1146,13 @@ background-color: #03448F;
 	background-image: url("../../pantalla/480x800.png");
 }
 }
+@media only screen and (min-device-width: 540px){
+.splash{
+	width:540px;
+	height:960px;
+	background-image: url("../../pantalla/540x960.png");
+}
+}
 @media only screen and (min-device-width: 640px){
 .splash{
 	width:640px;
