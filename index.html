@@ -15,6 +15,10 @@
 
 	<body>
 		<!--PAGINA PRINCIPAL-->
+		<div data-role="page" data-theme="b" id="splash" style="background-color: #fff;"> 
+			<div class="splash">
+			</div>
+		</div>
 		<div data-role="page" data-theme="d" id="page1">
 			<div data-role="header" data-theme="d" id="" data-position="fixed">
 				<h1><img class="logo-main" src="img/logo-fast.png"></h1>
@@ -36,5 +40,13 @@
 			</div>
 		</div>
 		<!--PAGINA PRINCIPAL-->
+		<script>
+		$(function() {
+  setTimeout(hideSplash, 50000);
+});
+
+function hideSplash() {
+  $.mobile.changePage("#page1", "fade");
+}</script>
 	</body>
 </html>
