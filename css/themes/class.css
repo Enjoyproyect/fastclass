@@ -1118,14 +1118,14 @@ background-color: #03448F;
 	background-image: url("../../pantalla/320x480.png");
 }
 }
-@media only screen and (min-device-width: 320px) and(min-height:426px){
+@media only screen and (min-device-width: 320px) and(min-device-height:426px){
 .splash{
 	width:320px;
 	height:426px;
 	background-image: url("../../pantalla/320x426.png");
 }
 }
-@media only screen and (min-device-width: 320px) and(min-height:470px){
+@media only screen and (min-device-width: 320px) and(min-device-height:470px){
 .splash{
 	width:320px;
 	height:470px;
@@ -1153,7 +1153,7 @@ background-color: #03448F;
 	background-image: url("../../pantalla/640x960.png");
 }
 }
-@media only screen and (device-width: 640px) and (device-height: 1136px){
+@media only screen and (device-width: 640px) and (device-device-height: 1136px){
 .splash{
 	width:640px;
 	height:1136px;
