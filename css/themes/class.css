@@ -1111,53 +1111,74 @@ background-color: #03448F;
 @media screen and (min-width:300px) and (max-width:479px){
 .logo-main{ width:80%;}
 }
-@media only screen and (min-device-width: 320px){
+@media only screen and (min-width: 320px){
 .splash{
 	width:320px;
 	height:480px;
 	background-image: url("../../pantalla/320x480.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
-@media only screen and (min-device-width: 320px) and(min-device-height:426px){
+@media only screen and (min-width: 320px) and(min-height:426px){
 .splash{
 	width:320px;
 	height:426px;
 	background-image: url("../../pantalla/320x426.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
-@media only screen and (min-device-width: 320px) and(min-device-height:470px){
+@media only screen and (min-width: 320px) and(min-height:470px){
 .splash{
 	width:320px;
 	height:470px;
 	background-image: url("../../pantalla/320x470.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
-@media only screen and (min-device-width: 384px){
+@media only screen and (min-width: 384px){
 .splash{
 	width:384px;
 	height:600px;
 	background-image: url("../../pantalla/320x480.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
-@media only screen and (min-device-width: 480px){
+@media only screen and (min-width: 480px){
 .splash{
 	width:480px;
 	height:800px;
 	background-image: url("../../pantalla/480x800.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
-@media only screen and (min-device-width: 540px){
+@media only screen and (min-width: 540px){
 .splash{
 	width:540px;
 	height:960px;
 	background-image: url("../../pantalla/540x960.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
-@media only screen and (min-device-width: 640px){
+@media only screen and (min-width: 640px){
 .splash{
 	width:640px;
 	height:960px;
 	background-image: url("../../pantalla/640x960.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
 @media only screen and (device-width: 640px) and (device-device-height: 1136px){
@@ -1165,6 +1186,9 @@ background-color: #03448F;
 	width:640px;
 	height:1136px;
 	background-image: url("../../pantalla/640x1136.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
 @media only screen and (min-device-width: 720px){
@@ -1172,6 +1196,9 @@ background-color: #03448F;
 	width:720px;
 	height:1280px;
 	background-image: url("../../pantalla/720x1280.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
 @media only screen and (min-device-width: 768px){
@@ -1179,5 +1206,8 @@ background-color: #03448F;
 	width:768px;
 	height:1024px;
 	background-image: url("../../pantalla/768x1024.png");
+	background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: 50% 50%;
 }
 }
