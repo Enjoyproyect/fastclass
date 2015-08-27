@@ -1,1 +1,1 @@
-$(function(){setTimeout(hideSplash, 3000);}); function hideSplash(){$.mobile.changePage("#page1", "fade");}
+$(function(){setTimeout(hideSplash, 2500);}); function hideSplash(){$.mobile.changePage("#page1", "fade");}
